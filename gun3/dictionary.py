@@ -1,6 +1,5 @@
 #key - value pairing
 
-import mypy_extensions
 fitness_dictionary = {"banana": 100, "orange": 150}
 print(type(fitness_dictionary))
 print(fitness_dictionary["banana"])
@@ -18,6 +17,7 @@ print(type(fitness_dictionary.values())) # dict_values türünde yazdırır
 print(list(fitness_dictionary.keys())) # liste olarak yazdırır
 print(type(list(fitness_dictionary.keys()))) # liste olarak yazdırır
 
+print(fitness_dictionary.items()) # key + value olarak yazdırır
 print("***************************")
 
 #dictionaryde value değiştirme
