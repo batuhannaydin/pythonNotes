@@ -5,7 +5,7 @@ class Person():
     # age = 0
     # gender = ""
     
-    # self sınıftaki değişkenlere referans veriyor
+    # self sınıftaki değişkenlere referans veriyor. init, obje oluşturulurken çağırılıyor
     def __init__(self,name,age,gender):
         self.name = name
         self.age = age

@@ -23,3 +23,5 @@ class Mercedes(Car):
 
 benz = Mercedes()
 benz.maxSpeed()
+
+
