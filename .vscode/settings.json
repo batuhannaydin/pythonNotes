@@ -1,4 +1,4 @@
 {
-    "editor.inlineSuggest.enabled": false,
-    "editor.inlineSuggest.edits.allowCodeShifting": "never"
+    "editor.inlineSuggest.enabled": true,
+    "editor.inlineSuggest.edits.allowCodeShifting": "always"
 }
