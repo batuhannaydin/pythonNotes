@@ -1,7 +1,7 @@
 import pandas as pd 
 import seaborn as sns 
 import matplotlib
-matplotlib.use('TkAgg') # 
+matplotlib.use('TkAgg') 
 import matplotlib.pyplot as plt
 
 data = pd.read_csv("../Matplotlib/athlete_events.csv")
